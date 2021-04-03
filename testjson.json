@@ -1,0 +1,18 @@
+{
+  "Item" : {
+    "spl" : "|loadjob abab | where baba| table a,b,l,m,n",
+	"filter_col" : ["a","b","l","m"]
+  },
+  "Item1" : {
+    "spl" : "|loadjob abab | where baba| table a,b,c,d",
+    "join" : {
+      "Item" : {
+        "key" : ["a","b"],
+        "outcol" : ["c"]
+      },
+      "Item2" : {
+        "key" : ["a","b"]
+      }
+    }
+  }
+}
