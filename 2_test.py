@@ -4,4 +4,4 @@ if "{:b}".format(num).count("0")==1]
 for i in output:
     print("{} : {}".format(i,"{:b}".format(i)))
 
-print("합계:", sum(output))
+print("합계_:", sum(output))
