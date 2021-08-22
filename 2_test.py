@@ -4,4 +4,4 @@ output = [num for num in range(1, 100+1)
 for i in output:
     print("{} : {}".format(i, "{:b}".format(i)))
 
-print("합계_:_", sum(output))
+print("합계_:", sum(output))
